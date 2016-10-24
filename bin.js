@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 'use strict'
 
-var config = require('rc')('ipp-printer', {
-  name: 'ipp-printer', dir: process.cwd(), port: 3000
+var config = require('rc')('ipp-server', {
+  name: 'ipp-server', dir: process.cwd(), port: 3000
 })
 var nonPrivate = require('non-private-ip')
 var url = require('url')
@@ -21,5 +21,5 @@ p.on('job', function (job) {
 })
 
 p.server.on('listening', function () {
-  console.log('ipp-printer listening on:', url.format({protocol: 'http', hostname: ip, port: config.port}))
+  console.log('ipp-server listening on:', url.format({protocol: 'http', hostname: ip, port: config.port}))
 })
