@@ -1,46 +1,46 @@
 {
-  "name"         : "ipp-server",
-  "version"      : "0.1.0",
-  "description"  : "Create a printer on the network",
-  "main"         : "index.js",
-  "bin"          : "./bin.js",
-  "dependencies" : {
-    "bonjour"         : "^3.0.0",
-    "debug"           : "^2.2.0",
-    "ipp-encoder"     : "^5.0.0",
-    "non-private-ip"  : "^1.3.0",
-    "once"            : "^1.3.3",
-    "pump"            : "^1.0.1",
-    "rc"              : "^1.1.6",
-    "readable-stream" : "^2.0.5",
-    "unique-concat"   : "^0.2.2"
-  },
-  "devDependencies" : {
-    "standard" : "^8.4.0",
-    "tape"     : "^4.2.2"
-  },
-  "scripts" : {
-    "test" : "standard"
-  },
-  "repository" : {
-    "type" : "git",
-    "url"  : "https://github.com/dresende/ipp-server.git"
-  },
-  "keywords" : [
-    "ipp",
-    "printer",
-    "print",
-    "server",
-    "network",
-    "bonjour",
-    "zeroconf",
-    "mdns",
-    "multicast"
-  ],
-  "author"  : "Diogo Resende <dresende@thinkdigital.pt>",
-  "license" : "MIT",
-  "bugs"    : {
-    "url" : "https://github.com/dresende/ipp-server/issues"
-  },
-  "homepage" : "https://github.com/dresende/ipp-server"
+	"name"         : "ipp-server",
+	"version"      : "0.1.0",
+	"description"  : "Create a printer on the network",
+	"main"         : "index.js",
+	"bin"          : "./bin.js",
+	"dependencies" : {
+		"bonjour"         : "^3.0.0",
+		"debug"           : "^2.2.0",
+		"ipp-encoder"     : "^5.0.0",
+		"non-private-ip"  : "^1.3.0",
+		"once"            : "^1.3.3",
+		"pump"            : "^1.0.1",
+		"rc"              : "^1.1.6",
+		"readable-stream" : "^2.0.5",
+		"unique-concat"   : "^0.2.2"
+	},
+	"devDependencies" : {
+		"standard" : "^8.4.0",
+		"tape"     : "^4.2.2"
+	},
+	"scripts" : {
+		"test" : "standard"
+	},
+	"repository" : {
+		"type" : "git",
+		"url"  : "https://github.com/dresende/ipp-server.git"
+	},
+	"keywords" : [
+		"ipp",
+		"printer",
+		"print",
+		"server",
+		"network",
+		"bonjour",
+		"zeroconf",
+		"mdns",
+		"multicast"
+	],
+	"author"  : "Diogo Resende <dresende@thinkdigital.pt>",
+	"license" : "MIT",
+	"bugs"    : {
+		"url" : "https://github.com/dresende/ipp-server/issues"
+	},
+	"homepage" : "https://github.com/dresende/ipp-server"
 }
