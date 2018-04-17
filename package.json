@@ -1,6 +1,6 @@
 {
 	"name"         : "ipp-server",
-	"version"      : "0.1.0",
+	"version"      : "0.1.1",
 	"description"  : "Create a printer on the network",
 	"main"         : "index.js",
 	"bin"          : "./bin.js",
@@ -16,8 +16,8 @@
 		"unique-concat"   : "^0.2.2"
 	},
 	"devDependencies" : {
-		"standard" : "^8.4.0",
-		"tape"     : "^4.2.2"
+		"standard" : "11.0.1",
+		"tape"     : "4.9.0"
 	},
 	"scripts" : {
 		"test" : "standard"
